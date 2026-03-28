@@ -1,32 +1,56 @@
-
 .titulo-logo {
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 150px;
+    height: 50px;
 
 }
 
 .titulo {
     display: flex;
-    //background-color: grey;
+    margin: 10px;
 }
 
 .logo {
-height: 100px;
-margin: 20px;
+    height: 50px;
+    margin-left: 20px;
 }
 
 .introduccion {
-display: flex;
-justify-content: center;
-width: 100%;
-flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
 }
 
 .texto {
-max-width: 1000px;
-width: 90%;
-text-align: justify;
-margin: 20px auto;
-} 
+    font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.7;
+    font-weight: 10;
+    max-width: 700px;
+    width: 90%;
+    text-align: justify;
+    margin: 20px auto;
+}
+
+.opera-hardware {
+    max-width: 1000px;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
+}
+
+
+.opera-software {
+    max-width: 1000px;
+    width: 50%;
+    height: 50%;
+    margin: 20px auto;
+}
+
+#h3 {
+    font-size: 0.9rem;
+    font-weight: 1500;
+    margin-top: 40px;
+}
