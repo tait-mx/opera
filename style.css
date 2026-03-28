@@ -31,7 +31,7 @@
     max-width: 700px;
     width: 90%;
     text-align: justify;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .opera-hardware {
@@ -44,13 +44,14 @@
 
 .opera-software {
     max-width: 1000px;
-    width: 50%;
-    height: 50%;
-    margin: 20px auto;
+    width: 80%;
+    height: 80%;
+    margin: 70px auto;
 }
 
 #h3 {
     font-size: 0.9rem;
     font-weight: 1500;
     margin-top: 40px;
+    margin-bottom: 0px;
 }
